@@ -22,8 +22,8 @@ SECRET_KEY = env("SECRET_KEY")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-BACKEND_DIR = BASE_DIR  # rename variable for clarity
-FRONTEND_DIR = BASE_DIR / 'react-notes-app'
+BACKEND_DIR = BASE_DIR/ "staticfiles_build" # rename variable for clarity
+FRONTEND_DIR = BACKEND_DIR / 'react-notes-app'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
