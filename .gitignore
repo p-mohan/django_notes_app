@@ -23,7 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 **/__pycache__/
 **/node_modules/
-**/build
 db.sqlite3
 react-notes-app/db.json
 django_notes_app/.env
