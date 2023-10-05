@@ -23,8 +23,8 @@
             "dest": "django_notes_app/wsgi.py"
         },
         {
-            "src": "/static/(.*)",
-            "dest": "static/$1"
+            "src": "/react-notes-app/build/static/(.*)",
+            "dest": "/react-notes-app/build/static/$1"
         }
     ]
 }
