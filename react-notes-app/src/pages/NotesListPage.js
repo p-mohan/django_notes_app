@@ -22,6 +22,9 @@ const NotesListPage = () => {
           <ListItem key={index} note={note} />
         ))}
       </div>
+      <span style={{ "padding-left": "10px" }}>
+        Developed by Upwork Freelancer Prasanth
+      </span>
       <AddButton />
     </div>
   );
