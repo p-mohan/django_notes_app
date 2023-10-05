@@ -22,7 +22,7 @@ SECRET_KEY = env("SECRET_KEY")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-BACKEND_DIR = BASE_DIR  # rename variable for clarity
+ # rename variable for clarity
 FRONTEND_DIR = BASE_DIR / 'react-notes-app'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -136,7 +136,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [FRONTEND_DIR / 'build' / 'static']
-STATIC_ROOT = BACKEND_DIR  / 'static'
+STATIC_ROOT = BASE_DIR  / 'static'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
