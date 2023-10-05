@@ -23,7 +23,7 @@ SECRET_KEY = env("SECRET_KEY")
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 BACKEND_DIR = BASE_DIR  # rename variable for clarity
-FRONTEND_DIR = BASE_DIR.parent / 'react-notes-app'
+FRONTEND_DIR = BASE_DIR / 'react-notes-app'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
